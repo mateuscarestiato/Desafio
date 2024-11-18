@@ -4,7 +4,7 @@ Este projeto realiza a extração, consolidação, tratamento e análise de dado
 O objetivo deste projeto é consolidar informações dos últimos 5 dias úteis sobre debêntures negociadas no mercado secundário e fornecer uma análise visual, incluindo gráficos da taxa indicativa média por data, categorizada por indexador.
 ## Extração de Dados
 Realizar o download dos arquivos de negociação dos últimos 5 dias úteis do site da ANBIMA.<br>
-Salva os arquivos na pasta Daily Prices com o formato AAAAMMDD.xls (exemplo: 20241113.xls).
+Salvar os arquivos na pasta Daily Prices com o formato AAAAMMDD.xls (exemplo: 20241113.xls).
 ## Transformação e Consolidação de Dados
 Consolida as informações em um único dataset.<br>
 Seleciona as colunas relevantes: Código, Nome, PU, Taxa Indicativa, Repac./ Venc. (data de vencimento), e outras colunas necessárias.<br>
