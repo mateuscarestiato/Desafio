@@ -19,7 +19,7 @@ Duração média nos últimos 5 dias úteis.<br>
 Códigos de debêntures de uma empresa específica.
 ## Banco de Dados
 MySQL: Para armazenar e gerenciar os dados consolidados.
-## Ferramentas de Visualização:
+## Ferramentas de Visualização
 Power BI: Para criação de dashboards interativos.
 ## Fontes de Dados
 ANBIMA: Site oficial para dados de debêntures.
