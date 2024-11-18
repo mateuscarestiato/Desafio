@@ -13,16 +13,12 @@ Adiciona uma coluna para identificar o indexador da debênture (DI +, IPCA + ou 
 Plota gráficos no Power BI com a média da Taxa Indicativa por data, categorizada por Indexador.
 Gera insights como quantidade de debêntures negociadas, duração média e códigos exclusivos de empresas específicas.
 ## Consultas SQL
-Fornece respostas a perguntas específicas usando SQL, como:
-Quantidade de debêntures listadas no dia anterior.
-Duração média nos últimos 5 dias úteis.
+Fornece respostas a perguntas específicas usando SQL, como<br>
+Quantidade de debêntures listadas no dia anterior.<br>
+Duração média nos últimos 5 dias úteis.<br>
 Códigos de debêntures de uma empresa específica.
-## Tecnologias Utilizadas
-Linguagens de Programação:
-Python: Para automação de download e transformação de dados.
-SQL: Para consultas e cálculos específicos no banco de dados.
 ## Banco de Dados
- MySQL: Para armazenar e gerenciar os dados consolidados.
+MySQL: Para armazenar e gerenciar os dados consolidados.
 ## Ferramentas de Visualização:
 Power BI: Para criação de dashboards interativos.
 ## Fontes de Dados
