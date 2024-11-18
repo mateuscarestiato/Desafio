@@ -6,14 +6,14 @@ O objetivo deste projeto é consolidar informações dos últimos 5 dias úteis 
 Realizar o download dos arquivos de negociação dos últimos 5 dias úteis do site da ANBIMA.<br>
 Salvar os arquivos na pasta Daily Prices com o formato AAAAMMDD.xls (exemplo: 20241113.xls).
 ## Transformação e Consolidação de Dados
-Consolida as informações em um único dataset.<br>
-Seleciona as colunas relevantes: Código, Nome, PU, Taxa Indicativa, Repac./ Venc. (data de vencimento), e outras colunas necessárias.<br>
-Adiciona uma coluna para identificar o indexador da debênture (DI +, IPCA + ou % do DI).
+Consolidar as informações em um único dataset.<br>
+Selecionar as colunas relevantes: Código, Nome, PU, Taxa Indicativa, Repac./ Venc. (data de vencimento), e outras colunas necessárias.<br>
+Adicionar uma coluna para identificar o indexador da debênture (DI +, IPCA + ou % do DI).
 ## Análise e Visualização
-Plota gráficos no Power BI com a média da Taxa Indicativa por data, categorizada por Indexador.<br>
-Gera insights como quantidade de debêntures negociadas, duração média e códigos exclusivos de empresas específicas.
+Plotar gráficos no Power BI com a média da Taxa Indicativa por data, categorizada por Indexador.<br>
+Gerar insights como quantidade de debêntures negociadas, duração média e códigos exclusivos de empresas específicas.
 ## Consultas SQL
-Fornece consultas específicas usando SQL, como:<br>
+Fornecer consultas específicas usando SQL, como:<br>
 Quantidade de debêntures listadas no dia anterior.<br>
 Duração média nos últimos 5 dias úteis.<br>
 Códigos de debêntures de uma empresa específica.
